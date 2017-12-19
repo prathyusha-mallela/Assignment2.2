@@ -8,7 +8,7 @@ Created on Tue Dec 19 22:11:02 2017
 def print_stars_nested_for(n):
     #increment of * prints
     #outer for loop
-    star='*';
+    #star='*';
     for i in range(0,n):
         #inner for loop
         for j in range(0,i+1):
