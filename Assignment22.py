@@ -12,7 +12,7 @@ def print_stars_nested_for(n):
     for i in range(0,n):
         #inner for loop
         for j in range(0,i+1):
-            print('* ',end='');
+            print('*',end='');
             #print(star*j);
         print('\r');
     #decrement of * prints
@@ -20,7 +20,7 @@ def print_stars_nested_for(n):
     for i in range((n-1),0,-1):
         #inner for loop
         for j in range(0,i):
-            print('* ',end='');
+            print('*',end='');
             #print(star*j);
         print('\r');
 
